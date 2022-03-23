@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-const WORD_LENGTH = 5;
+import { WORD_LENGTH } from '../constants';
 
 interface RowProps {
   word: string;
