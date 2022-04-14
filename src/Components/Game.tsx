@@ -6,7 +6,7 @@ import Row from './Row';
 
 const Game: React.FC = () => {
     return (
-      <Box sx={{ display: "flex", flexDirection: "column" }}>
+      <Box sx={{ display: "flex", flexDirection: "column", marginTop : "50px" }}>
         {Array.from({ length: NUMBER_GUESSES }, (_, index) => 
           <Row word="guess" guessedLetters={[]} />
         )}
